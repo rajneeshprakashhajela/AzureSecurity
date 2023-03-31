@@ -14,4 +14,64 @@ Onpremise, Office 365, Hosted in azure app service
 ![image](https://user-images.githubusercontent.com/43515480/229142198-021eceb9-af09-4613-9305-7fcbb334447a.png)
 ![image](https://user-images.githubusercontent.com/43515480/229143075-cb939f9a-56c1-43b7-bf4e-74ec8f0f7b4d.png)
 ![image](https://user-images.githubusercontent.com/43515480/229143152-7ee095c8-e143-4234-b0a3-6b037efd9ad3.png)
+===========
+<b>Steps for create Group and Bind User in group: </b>
 
+Add New Group --> Group Type(Security, office 365) choose security --> Group Name - (Mention Name) --> Member (Internal or External User)
+
+<b>Application Proxy</b>  -- Azure Ad premium license
+Prepare VM TLS 1.2
+==============
+<b>OnPremise to Azure AD Connect</b>
+Steps:
+1. Create Azure Active Directory -   Organization name: Hajela, Initial Domain Name: Hajela, Country: India and Global admin User
+2. Open Azure portal using created active directory resource.
+3. Create Virtual Machine --> (Resource Group - rggroup, Virtual Machine - OnPremiseAD, Image- Windows server 2016 DataCenter) B2(8 GB Memory) , User Name, Password , Inbound Port (HTTP(80), HTTPS(443), SSH(22), RDP(3389)) 
+
+4. Install Active Directory Domain Services on VM <br/>
+   Open VM --> Click on Add Roles and Features--> Add Active Directory Domain Service (ADMS) --> .NET Framework --> Install
+   Add New User --> User --> New User 
+   
+5. Download AD Connect on Same VM <br/>
+    AD Connect Download--> go to Connect Azure AD-->Use existing AD account (Username ,password) <br/>
+    Sync all domain and OUs(organization Unit)
+    forest -- hajelaad.net (AzureAD)
+    
+    
+    Useful links to documentation related to AAD
+User default permissions
+
+https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/users-default-permissions
+
+Self service password reset
+
+https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks
+
+Cloud based multi-factor authentication
+
+https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted
+
+Application management in Azure AD
+
+https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management
+
+MyApps Portal
+
+https://docs.microsoft.com/en-us/azure/active-directory/user-help/my-apps-portal-end-user-overview
+
+Publishing an on-premise app into AAD using application proxy
+
+https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-on-premises-apps
+
+Single sign-on
+
+https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on
+
+AD connect
+
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect
+
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies
+    
+     
+   
