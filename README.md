@@ -42,18 +42,32 @@ Steps:
 User default permissions
 
 https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/users-default-permissions
+The Restrict non-admin users from creating tenants option is shown below
+![image](https://user-images.githubusercontent.com/43515480/229164641-3d185c41-520b-4891-be5a-a7078344b18d.png)
+
 
 Self service password reset
 
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks
+![image](https://user-images.githubusercontent.com/43515480/229164752-64b9ce43-faee-4d1b-b4cd-032f578e29d7.png)
+![image](https://user-images.githubusercontent.com/43515480/229164828-5f6ee80e-2796-4e06-921f-f8420ae4ea2b.png)
+
+On-premises integration
+If you have a hybrid environment, you can configure Azure AD Connect to write password change events back from Azure AD to an on-premises directory.
+
+![image](https://user-images.githubusercontent.com/43515480/229164977-2a98101e-ae25-4702-b493-37fc9fbd1c9a.png)
+
 
 Cloud based multi-factor authentication
 
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted
 
+
+
 Application management in Azure AD
 
 https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management
+![image](https://user-images.githubusercontent.com/43515480/229165557-f8d32dc0-32e8-4227-8a95-28f118ff09a5.png)
 
 MyApps Portal
 
@@ -68,6 +82,22 @@ Single sign-on
 https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on
 
 AD connect
+
+![image](https://user-images.githubusercontent.com/43515480/229165764-f71b7081-c166-4f30-888a-fb7df8255edb.png)
+![image](https://user-images.githubusercontent.com/43515480/229165835-eb6f2d4a-a698-4f77-ba55-90b91376180b.png)
+
+Single forest, single Azure AD tenant
+![image](https://user-images.githubusercontent.com/43515480/229165918-04bb66a8-8587-4ef3-809e-bbbfb0282f3d.png)
+
+Single forest, multiple sync servers to one Azure AD tenant
+![image](https://user-images.githubusercontent.com/43515480/229166055-be86af73-27a5-48eb-a5fc-bd988e007bf6.png)
+Multiple forests, single Azure AD tenant
+![image](https://user-images.githubusercontent.com/43515480/229166125-8be17400-4d2e-4d5a-bad0-e539b8edeb5b.png)
+
+
+Multiple forests, multiple sync servers to one Azure AD tenant
+![image](https://user-images.githubusercontent.com/43515480/229166203-8a7e7499-611b-402e-be93-2f393ca98627.png)
+
 
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect
 
