@@ -102,6 +102,24 @@ Multiple forests, multiple sync servers to one Azure AD tenant
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect
 
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies
-    
+
+
+<H>Location Based Condition Access Policy </H>
+Steps:
+go to Azure portal --> Azure Active Directory --> Conditional Access -->Policies <br/>
+Named Location -->(IP range Or country) --> IP Range - .........204/32  <br/>
+Click on MFA --> and mention IP address <br/>
+<br/>
+Assignment -->  <br/>
+1. User & group Selected <br/>
+2. which app for condition access policy  <br/>
+3. Cloud app selected - Microsoft planner <br/>
+4. Condition
+            
+
+
+
+  
+ 
      
    
