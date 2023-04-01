@@ -132,10 +132,15 @@ Multiple Way
   1. Open PowerShell and mention Azure User and password<br/>
   2. Example - We don't want to delete storage account<br/>
   3. Get AzRoleDefinition Name "StorageAccountContributer" (New Custom Role) <br/>
-  4. Get AzRoleDefinition Name "StorageAccountContributer" | Convert to JSON | out-file "c:\user\customStorage.JSON"
-  5. Open JSON File "Action" and "NotAction" mention 
-  6. "NOTAction":[ "Microsoft.Storage/StorageAccounts/Delete"]
-  
+  4. Get AzRoleDefinition Name "StorageAccountContributer" | Convert to JSON | out-file "c:\user\customStorage.JSON"<br/>
+  5. Open JSON File "Action" and "NotAction" mention <br/>
+  6. "NOTAction":[ "Microsoft.Storage/StorageAccounts/Delete"]<br/>
+  7. Get-AzSubscription<br/>
+  8. New-AzRoleSubcription InputFile "c:\user\customStorage.JSON"<br/>
+  9. for checking custom Role --> Go to IAM --> Go to Roles Tab--> (you will find defined custom role)<br/>
+  10. Assign Role to User (not delete any resource)<br/>
+  11. Add --> Add Role Assignment--> Role Name , User name  (save)<br/>
+  12. check in Role Assignment <br/>
   
  
      
