@@ -129,13 +129,12 @@ Multiple Way
   
   
   <h1>For Custom Role  </h1><br/>
-  Open PowerShell and mention Azure User and password<br/>
-  Example - We don't want to delete storage account<br/>
-  Get AzRoleDefinition Name "StorageAccountContributer" (New Custom Role) <br/>
-  Get AzRoleDefinition Name "StorageAccountContributer" | Convert to JSON | out-file "c:\user\customStorage.JSON"
-  Open JSON File "Action" and "NotAction" mention 
-
-"NOTAction":[ "Microsoft.Storage/StorageAccounts/Delete"]
+  1. Open PowerShell and mention Azure User and password<br/>
+  2. Example - We don't want to delete storage account<br/>
+  3. Get AzRoleDefinition Name "StorageAccountContributer" (New Custom Role) <br/>
+  4. Get AzRoleDefinition Name "StorageAccountContributer" | Convert to JSON | out-file "c:\user\customStorage.JSON"
+  5. Open JSON File "Action" and "NotAction" mention 
+  6. "NOTAction":[ "Microsoft.Storage/StorageAccounts/Delete"]
   
   
  
