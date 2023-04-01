@@ -116,9 +116,27 @@ Assignment -->  <br/>
 3. Cloud app selected - Microsoft planner <br/>
 4. Condition
             
+<b>Role Base access control </b> <br/>
+ 1. Security Principle (Represent User, Group, Service Principle or managed identity(Auto manage by azure AD) <br/>
+ 2. Role Definition (Collection of permission)<br/>
+ 3. Scope (Inside Role, If you want to define limit the actions allowed by defining a scope<br/> 
 
 
+Multiple Way
+1. User --> Directory Role --> Limited Administrator (Admin, Developer, billing Admin)
+2. Resource Group--> Access control(IAM)(Owner, contributer, Reader)
+3. Subscription level --> Aztraining-->Access control(IAM)(Owner, contributer, Reader) --> Add Role Assignment--> (Add User)
+  
+  
+  <h1>For Custom Role  </h1><br/>
+  Open PowerShell and mention Azure User and password<br/>
+  Example - We don't want to delete storage account<br/>
+  Get AzRoleDefinition Name "StorageAccountContributer" (New Custom Role) <br/>
+  Get AzRoleDefinition Name "StorageAccountContributer" | Convert to JSON | out-file "c:\user\customStorage.JSON"
+  Open JSON File "Action" and "NotAction" mention 
 
+"NOTAction":[ "Microsoft.Storage/StorageAccounts/Delete"]
+  
   
  
      
