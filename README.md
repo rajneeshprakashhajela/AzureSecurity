@@ -145,3 +145,23 @@ Multiple Way
  
      
    
+  <h1>Group creation and Role Assignment  </h1><br/>
+  Security Group (Dynamic Group), Role Definition (Built in Role), Scope (Storage Account)
+  Group --> Member (all Users) , Owner (Admin) - we can add using add Owner
+  Group Membership 
+  Application 
+  Licenses - Group level 
+  Azure Resources
+  Audit logs
+  
+  <h1>Dynamic Group creation and Role Assignment  </h1><br/>
+  Group --> Create Group --> StorageAdmin
+  Go to created Group (StorageAdmin) --> check membership processing status (Update completed)
+  Go to Storage account--> Access Control (IAM) --> Add Role Assignment --> Role (contributer)  and select group (StorageAdmin) we created --> (save)
+  
+  Now mentioned User can use their credential and can see storageaccount and other group and role related info
+   
+  
+   <h1>Azure AD App Registration </h1><br/>
+  
+  
