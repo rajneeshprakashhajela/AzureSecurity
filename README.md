@@ -5,6 +5,15 @@ Azure B2C - example Facebook, (Manage identity of User)
 Onpremise, Office 365, Hosted in azure app service
 
 ![image](https://user-images.githubusercontent.com/43515480/229138369-4afa2f46-f5c1-4c3a-b89c-69152d49d022.png)
+![image](https://user-images.githubusercontent.com/43515480/230782928-8ad09d92-31a6-4cfe-923b-d2c3c19f9ffd.png)
+
+![image](https://user-images.githubusercontent.com/43515480/230782916-33850a19-1540-4d98-a49c-4fbd0f179a57.png)
+![image](https://user-images.githubusercontent.com/43515480/230782942-6b1e497d-1e1d-4bcf-b5d5-778dd9292123.png)
+![image](https://user-images.githubusercontent.com/43515480/230782944-ee81ffa5-e728-49aa-9c93-bf53f38a6e94.png)
+![image](https://user-images.githubusercontent.com/43515480/230782949-f35fc3dc-eece-4675-aca2-fa89bea1a6a3.png)
+![image](https://user-images.githubusercontent.com/43515480/230782957-2d1227e6-18d1-4756-9223-de0051343caf.png)
+
+
 ![image](https://user-images.githubusercontent.com/43515480/229140703-7e78c287-c13f-4d36-874c-5e099288ba87.png)
 ![image](https://user-images.githubusercontent.com/43515480/229140997-dba465fb-201d-4c87-b483-8505bd133d25.png)
 ![image](https://user-images.githubusercontent.com/43515480/229141101-9196f1e3-9380-40e6-b303-a7295c24e61e.png)
