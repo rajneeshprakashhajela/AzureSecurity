@@ -104,6 +104,8 @@ https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-c
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies
 
 
+
+
 <H>Location Based Condition Access Policy </H>
 Steps:
 go to Azure portal --> Azure Active Directory --> Conditional Access -->Policies <br/>
@@ -165,3 +167,6 @@ Multiple Way
    <h1>Azure AD App Registration </h1><br/>
   
   
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/43515480/230776880-ff8eff4c-23a1-43a0-9634-0a41e8d30763.png">
+
+<img width="728" alt="image" src="https://user-images.githubusercontent.com/43515480/230776941-4f726ef4-416d-476e-bf5a-e70f59165e76.png">
