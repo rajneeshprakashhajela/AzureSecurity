@@ -1,7 +1,9 @@
 ![image](https://github.com/rajneeshprakashhajela/AzureSecurity/assets/43515480/07e491ba-e9bc-444d-ad68-582d6b57a0a8)
-
+![image](https://github.com/rajneeshprakashhajela/AzureSecurity/assets/43515480/6c27a8de-18c6-4d91-8ed6-93631ce5bf2c)
 <img width="243" alt="image" src="https://github.com/rajneeshprakashhajela/AzureSecurity/assets/43515480/a58c8e25-3efa-4374-a29b-37ee69ede36d">
+
 ![image](https://github.com/rajneeshprakashhajela/AzureSecurity/assets/43515480/c6e0c441-ef58-4d3c-9d48-7151cc0f4e15)
+
 
 Azure B2B (Azure resouce for support user - As a Guest User) - They are restricted.. (Secure resource)
           Guest User we invite via Email (we fill Guest User Mail id only.. not require other all info)
